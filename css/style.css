@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+  
+.slider {
+  width: 90%;
+  margin: 0 auto 80px;
+}
+
+.slick-slide img {
+  width: auto;
+  height: 100%;
+}
+
+.mypattern {
+  width: 100%;
+}
+
+.mypattern .slick-slide {
+  margin: 0px 50px;
+}
+
+.slick-track { 
+  height: 50vh;
+}
+
+.slick-initialized .slick-slide {
+  opacity: 0.6; 
+}
+
+.slick-initialized .slick-slide.slick-active {
+  opacity: 1;
+}
+
+.slick-prev::before {
+  content: url(../img/prev-left.png);
+}
+ 
+.slick-next::before {
+  content: url(../img/prev-right.png);
+}
+
+.slick-prev {
+  left: 80px;
+}
+  
+.slick-next {
+  right: 80px;
+}
